@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo{
+    height: 90px;
+    width: 90px;
+    padding: 15px;
+}
+.navbar{
+    height: 80px;
+}
+.search-logo{
+    height: 40px;
+    width: 50px;
+    transition-duration: 0.5s;
+}
+.search-logo:hover{
+    height: 50px;
+    width: 60px;
+    
+}
+.card-container-one{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.main-heading{
+    padding-top: 40vh;
+    padding-left: 80px;
+    color: white;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.main-para{
+    color: #58c0a1;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.para{
+    padding-left: 80px;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+}
+.explore{
+    padding-top: 40vh;
+    padding-left: 80px;
+    margin-left: 80px;
+}
+.check{
+    margin-left: 20px;
+}
+.essential{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    margin: 5px;
+}
+.essential-para{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    
+}
+.advice{
+    background-color: rgb(255, 138, 92);
+    margin-top: 60px;
+    margin-right: 750px;
+    margin-left: 750px;
+    height: 25px;
+    border-radius: 40px;
+    text-align: center;
+}
+.for-button{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.expert{
+    border-radius: 40px;
+    background-color: #58c0a1;
+    border: 0px;
+    color: white;
+}
+.nutrition{
+    background-color: aliceblue;
+    height: 250px;
+    width: 420px;
+    border-radius: 20px;
+    border-color: gray;
+    border: 8px;
+    margin: 15px;
+}
+.balance-meal{
+    font-family: "Roboto";
+    padding-left: 35px;
+}
+.meal{
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.para-one{
+    color: grey;
+    font-family: "Roboto";
+    margin-top: 20px;
+}
+.nutrition:hover{
+    width: 450px;
+}
+.nutrition{
+    transition-duration: 1s;
+}
+
+/* apple-section */
+
+.benefits-apple{
+    font-family: Roboto;
+    padding-top: 110px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.card-container-apple{
+    background-image: url("tuxpi.com.1763654896.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.apple-heading{
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.apple-para{
+    color: beige;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.apple-small-container{
+    background-color: beige;
+    height: 100vh;
+    width: 100vw;
+}
+.content-heading{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.content-para{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: "Roboto";
+}
+.nutrition-value{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.card-nutrition{
+    background-color: #d3d3d3;
+    height: 350px;
+    width: 600px;
+    border-radius: 40px;
+    margin: 20px;
+}
+.apple-info-container{
+    height: 600px;
+    width
+}
+
+/* active section */
+
+.card-container-active{
+    background-image: url("activeee.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* hydration */
+
+.card-container-hydration{
+    background-image: url("bottle.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* symptoms */
+
+.card-container-symptoms{
+    background-image: url("symptoms.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}

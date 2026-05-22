@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+    <body>
+
+      <!-- Home-page -->
+       
+  <div id="sectionhomepage">    
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="logo-new.png" class="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav m-auto">
+      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link">About</a>
+      <a class="nav-link">Contact us</a>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn- my-2 my-sm-0" type="submit">
+        <img src="search6928-removebg-preview.png" class="search-logo">
+      </button>
+    </form>
+  </div>
+</nav>
+  <div class="card-container-one">
+    <div class="main-heading">
+    <h1 class="heading">MediHelp<br/></h1>
+    <p class="main-para">Health Awareness<br/>Hub</p>
+  </div>
+  <p class="para">Empowering you with trusted health information, expert tips, and<br/>personalized symptom guidance for a healthier tomorrow.</p>
+<div class="buttons">
+  <a href="#healthtipspage">  
+  <button class="btn btn-outline-light explore">Explore Health Tips</button>
+  </a>
+  <a href="https://ubiehealth.com/">
+     <button class="btn btn-outline-dark check">Check Symptoms</button>
+  </a>
+ 
+</div>
+</div>
+<div id="healthtipspage">
+<div class="bg-container">
+  <div class="card-container">
+    <div class="for-button">
+    <button class="expert">Expert Advice</button>
+    </div>
+    </div>
+    <h1 class="essential">Essential Health Tips</h1>
+    <p class="essential-para">Simple, actionable advice to help you maintain a healthy lifestyle and prevent<br/>common health issues.</p>
+  <div class="container-nutrition d-flex flex-row justify-content-center">
+    <div class="nutrition" onclick="display('sectionapple')">
+      <img src="apple-removebg-preview.png" class="apple">
+      <div class="balance-meal">
+      <h4 class="meal">Eat Balanced Meals</h4>
+      <p class="para-one">Include fruits, vegetables, whole grains, and lean proteins in your daily diet for optimal health.</p>
+      </div>
+    </div>
+     <div class="nutrition" onclick="display('sectionactive')">
+      <img src="ummm.png" class="apple">
+      <div class="balance-meal">
+      <h4 class="meal">Stay Active Daily</h4>
+      <p class="para-one">Aim for at least 30 minutes of moderate physical activity to maintain cardiovascular health.</p>
+      </div>
+    </div>
+     <div class="nutrition" onclick="display('sectionhydration')">
+      <img src="hydration.png" class="apple">
+      <div class="balance-meal">
+      <h4 class="meal">Drink Plenty of Water</h4>
+      <p class="para-one">Keep your body hydrated by drinking 8-10 glasses of water throughout the day.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>  
+  </div>
+
+  <!-- apple-section -->
+   
+   <div id="sectionapple">
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="logo-new.png" class="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav m-auto">
+      <a class="nav-link active" onclick="display('sectionhomepage')" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">Contact Us</a>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn- my-2 my-sm-0" type="submit">
+        <img src="search6928-removebg-preview.png" class="search-logo">
+      </button>
+    </form>
+  </div>
+</nav>
+  <div class="card-container-apple">
+   <div class="main-heading">
+       <h1 class="apple-heading">Benefites</h1>
+       <p class="apple-para">of Apple and its<br/>Nutritional Value</p>
+   </div>
+  </div>
+  <div class="apple-small-container">
+    <div class="apple-info-container">
+    <h1 class="content-heading">Benefits of Apple and its Nutritional Value</h1>
+    <p class="content-para">Apples are one of the most widely available fruits worldwide. These crunchy and juicy snacks offer amazing health and nutrition perks. A medium-sized apple has 95 calories and contains various nutrients that improve overall health. Apples' rich combination of fibre, vitamins, and antioxidants makes them more than just refreshing snacks.
+    </p>      
+    <p class="content-para">
+     Scientists have found that apples can lower your risk of several serious health conditions. People who keep taking them show reduced chances of heart disease. Studies suggest eating 100 to 150 grams daily supports your cardiovascular health. According to a study, the fruit might also decrease type 2 diabetes risk.
+    </p>
+  <div class="card-nutrition-bg d-flex flex-row justify-content-center">
+   <div class="card-nutrition">
+    <h1 class="nutrition-value">Nutritional Value of an Apple</h1>
+    <ul>
+      <li>Calories: 95 kcal</li>
+      <li>Carbohydrates: 25g including 19g natural sugars</li>
+      <li>Fibre: 4.8g </li>
+      <li>Water: 85%</li>
+      <li>Vitamins: Rich in vitamin C </li>
+      <li>Minerals: Rich in potassium </li>
+      <li>Antioxidants: Rich in quercetin, especially in the peel</li>
+    </ul>
+   </div>
+   <div class="card-nutrition">
+    <h1 class="nutrition-value">7 Health Benefits of<br/>Apples</h1>
+    <ul>
+      <li>Weight loss</li>
+      <li>GEating 100-150g of apples each day helps lower your risk of heart disease.</li>
+      <li>Lower chance of diabetes</li>
+      <li>Promote gut health</li>
+      <li>Help prevent cancer</li>
+      <li>Help fight asthma</li>
+      <li>Improve mental health</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Section Active -->
+
+  <div id="sectionactive">
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="logo-new.png" class="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav m-auto">
+      <a class="nav-link active" onclick="display('sectionhomepage')" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">Contact Us</a>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn- my-2 my-sm-0" type="submit">
+        <img src="search6928-removebg-preview.png" class="search-logo">
+      </button>
+    </form>
+  </div>
+</nav>
+  <div class="card-container-active">
+   <div class="main-heading">
+       <h1 class="apple-heading">Benefites</h1>
+       <p class="apple-para">of being active<br/>daily</p>
+   </div>
+  </div>
+  <div class="apple-small-container">
+    <div class="apple-info-container">
+    <h1 class="content-heading">Benefits of being active daily</h1>
+    <p class="content-para">Staying active every day offers a wide range of significant benefits for both your physical and mental well-being, and it's one of the best things you can do for your long-term health.
+    </p>      
+    <p class="content-para">
+      The benefits of daily physical activity are not merely anecdotal; they are strongly supported by a large and growing body of scientific research, clinical trials, and epidemiological studies from major health organizations worldwide (like the WHO, CDC, and NIH).
+    </p>
+  <div class="card-nutrition-bg d-flex flex-row justify-content-center">
+   <div class="card-nutrition">
+    <h1 class="nutrition-value">Impact of Staying active on Physical Health</h1>
+    <ul>
+      <li>Controls Weight</li>
+      <li>Strengthens Bones and Muscles</li>
+      <li>Boosts Energy Levels</li>
+      <li>Improves Sleep Quality</li>
+      <li>Enhances Functional Ability</li>
+    </ul>
+   </div>
+   <div class="card-nutrition">
+    <h1 class="nutrition-value">Impact of Staying active on Mental Health</h1>
+    <ul>
+      <li>Improves Mood</li>
+      <li>Reduces Stress and Anxiety</li>
+      <li>Boosts Self-Esteem and Confidence</li>
+      <li>Keeps Cognitive Skills Sharp</li>
+      <li>Promotes Better Sleep</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Section Hydration -->
+
+  <div id="sectionhydration">
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="logo-new.png" class="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav m-auto">
+      <a class="nav-link active" onclick="display('sectionhomepage')" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">Contact Us</a>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn- my-2 my-sm-0" type="submit">
+        <img src="search6928-removebg-preview.png" class="search-logo">
+      </button>
+    </form>
+  </div>
+</nav>
+  <div class="card-container-hydration">
+   <div class="main-heading">
+       <h1 class="apple-heading">Benefites</h1>
+       <p class="apple-para">of staying <br/>hydrated</p>
+   </div>
+  </div>
+  <div class="apple-small-container">
+    <div class="apple-info-container">
+    <h1 class="content-heading">Benefits of staying hydrated</h1>
+    <p class="content-para">
+Drinking plenty of water helps regulate your body temperature, keeps your joints lubricated, and aids in digestion by helping to prevent constipation.    </p>      
+    <p class="content-para">
+It also plays a vital role in transporting nutrients to your cells and flushing waste products from your system. Proper hydration can even improve your energy levels, mood, and brain function, making it a simple yet powerful way to support your overall health.    </p>
+  <div class="card-nutrition-bg d-flex flex-row justify-content-center">
+   <div class="card-nutrition">
+    <h1 class="nutrition-value">key benefits of staying well-hydrated</h1>
+    <ul>
+      <li>Boosts Brain Function and Energy</li>
+      <li>Supports Physical Performance</li>
+      <li>Aids Digestion and Waste Removal</li>
+      <li>Promotes Overall Health</li>
+      <li>Enhances Functional Ability</li>
+    </ul>
+   </div>
+  </div>
+  </div>
+  </div>
+  </div>
+        <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+    </body>
+</html>
